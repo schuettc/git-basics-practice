@@ -6,3 +6,7 @@ export function greet(name) {
 export function shout(name) {
   return greet(name).toUpperCase();
 }
+
+export function whisper(name) {
+  return greet(name).toLowerCase();
+}
